@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/rulet/proglog'
+protoc api/v1/*.proto \
+	--go_out=. \
+	--go_opt=paths=source_relative \
+	--proto_path=.
+make.exe: Leaving directory `c:/Users/rulet/proglog'
+ 

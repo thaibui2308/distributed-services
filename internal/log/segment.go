@@ -5,8 +5,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/go-delve/delve/service/api"
-	api "github.com/thaibui2308/prolog/api/v1"
+	api "github.com/thaibui2308/proglog/api/v1"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -87,7 +86,7 @@ func (s *segment) Read(off uint64) (*api.Record, error) {
 	if err != nil {
 		return nil, err
 	}
-	record := *api.Record{}
+	record := &api.Record{}
 	err = proto.Unmarshal(p, record)
 	return record, err
 }

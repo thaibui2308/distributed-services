@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Jun 23 16:25:01 2022
+# Make data base, printed on Thu Jun 23 21:50:55 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-65ab1b71-4ef1-46f1-b144-108533c13e6d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-36ed298f-21fe-46bb-bd7b-bb83843e6422-sock
 # environment
 VSCODE_CWD = C:\Users\rulet\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -87,7 +87,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5928_YODXVSYONPWYCZPN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24932_VUFNAJPVIQCIQLZT
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -199,7 +199,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 5928
+VSCODE_PID = 24932
 # environment
 USERDOMAIN_ROAMINGPROFILE = MSI
 # variable set hash-table stats:
@@ -297,7 +297,7 @@ compile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jun 23 16:25:01 2022
+# Finished Make data base on Thu Jun 23 21:50:55 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
